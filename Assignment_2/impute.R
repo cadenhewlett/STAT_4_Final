@@ -15,7 +15,7 @@
 #                        called additional_celltype that is 1 x 1485 (# of columns in additional_data).
 # 4.  Write to File: Writes the additional_celltype vector to a .txt file called "cell_type_predicted".
 
-# (Can't put my name), 2021-04-23, 
+# Hewlett, Caden, 2021-05-08, 
 ############################################################################################################
 
 # ------------------------------------------ 1: Setup -------------------------------------------
