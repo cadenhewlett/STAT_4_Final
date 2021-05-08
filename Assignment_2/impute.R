@@ -19,7 +19,8 @@
 ############################################################################################################
 
 # ------------------------------------------ 1: Setup -------------------------------------------
-#Import CSV Files
+#import CSVs
+setwd("C:/Users/caden/OneDrive/Documents/GitHub/STAT_4_Final/Assignment_2")
 additional_data  = read.csv("cell_data_additional.csv")
 cell_data = read.csv("cell_data.csv")
 

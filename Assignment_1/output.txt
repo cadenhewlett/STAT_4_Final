@@ -1,0 +1,50 @@
+Summary Stats of Boxplots (Plot 1)
+    ID        Min          Q1        Med         Q3       Max          Variance              Mean       IQR    Range
+1 b_x1  -8.927294   4.4848684   4.773946 5.21855785  5.938752 0.367919458974112  4.83833585890504 0.7336894 14.86605
+2 b_x2 -2.3368275 10.79345425  11.064285  11.531832  12.69312 0.541769330085693  11.1822866261744 0.7383777 15.02995
+3 t_x1   -10.1439  -6.0601699  -4.422668 1.47465135 6.5469227  18.8192808594738 -2.68443261500989 7.5348213 16.69082
+4 t_x1  -8.936385   -5.932384 -3.6585026 0.56195043 10.913022  23.4751240660119 -2.19511163666667 6.4943344 19.84941
+
+Summary Stats of Plot 2
+  Cell Type Value    0.05p%    0.95p% Mean of Observed   Variance
+1        X1     B  4.239371  5.669636         4.838336  0.3679195
+2        X2     B 10.501361 12.330562        11.182287  0.5417693
+3        X1     T -7.877208  5.214535        -2.684433 18.8192809
+4        X2     T -7.812303  8.146939        -2.195112 23.4751241
+
+Summary Stats of Plots 3-5
+   Avg_Age Avg_B_Ratio Avg_T_Ratio Avg_M_B_Rat Avg_FM_B_Rat
+1 26.41667   0.2489618   0.7510382   0.3091258    0.1887978
+
+**Spearman's Correlation Test Information**
+Spearman Test Statistic =  72.25132
+Spearman's Correlation =  0.747
+P-Value of Spearman Test =  0.005205708
+Reject H0 for Spearman Test: TRUE
+Information about Donors:
+   Donor Age Pct_B_Cells
+1    A16  24      61.994
+2    C34  17       0.000
+3    F22  17       1.449
+4    F64  21       4.435
+5    F67  23      14.378
+6    F74  19       1.389
+7    T03  83      28.141
+8    T06  25      32.406
+9    T07  25      51.894
+10   A43  35      92.648
+11   C40  13       7.317
+12   C41  15       2.703
+
+
+**Chi-Squared Test Information**
+Degrees of Freedom of Chi-Squared Test 1
+Test Statistic of Chi-Squared Test 0.01284482
+P-Value of Chi-Square Test =  0.909765 
+
+Reject H0 for Chi-Squared Test: FALSE
+Contingency Table of Observed Values:
+              B    T GendersTotal
+Female     1162 1402         2564
+Male       1797 1577         3374
+CellsTotal 2959 2979         5938
